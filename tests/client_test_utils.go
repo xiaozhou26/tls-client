@@ -82,6 +82,12 @@ const (
 
 var clientFingerprints = map[string]map[string]map[string]string{
 	chrome: {
+		profiles.Chrome_127.GetClientHelloStr(): map[string]string{
+			ja3String:             "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,23-43-0-35-65037-18-16-11-17513-13-65281-27-45-5-51-10,25497-29-23-24,0",
+			ja3Hash:               "fbcc7bee0591a21ec0ae621d8ef537a1",
+			akamaiFingerprint:     "1:65536,2:0,4:6291456,6:262144|15663105|0|m,a,s,p",
+			akamaiFingerprintHash: "90224459f8bf70b7d0a8797eb916dbc9",
+		},
 		profiles.Chrome_124.GetClientHelloStr(): map[string]string{
 			ja3String:             "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,27-18-23-17513-16-43-13-11-0-35-10-65037-5-65281-45-51,25497-29-23-24,0",
 			ja3Hash:               "64aff24dbef210f33880d4f62e1493dd",
